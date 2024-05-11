@@ -20,7 +20,7 @@ const CountryCard = ({ name, capital, languages, flags }: CountryModel) => {
 							{name.common}
 						</Text>
 						<Text as='div' size='2' color='gray'>
-							{capital}
+							CApital: {capital}
 						</Text>
 					</Box>
 				</Flex>
